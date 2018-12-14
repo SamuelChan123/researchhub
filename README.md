@@ -64,6 +64,9 @@ Below, you will find some information on how to set up the database, scrape data
     - Navigate into FrontEnd
     - Run npm install to download any package.json dependencies. Ensure npm (Node Package Manager) is installed on your machine.
     - Run npm start. In case of error, run "yarn install --> yarn start."
+3. For Deployment (GCP)
+    - Must change config to external ip address of vm instance
+    - run yarn start on PORT=80, specify backend url
 
 ## 6. Injecting Data (GET, POST requests)
 
