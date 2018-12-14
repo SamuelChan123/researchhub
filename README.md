@@ -1,6 +1,7 @@
 # Duke Research Hub
 
 By: Samuel Chan, James Rumsey, Christian Burke, Vinit Parekh, Justin Suh
+
 Help from: Yunyu Lin, Prof. Jun Yang, Doug Talbert
 
 ## Project Description
