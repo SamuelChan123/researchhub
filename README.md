@@ -1,5 +1,9 @@
 # Duke Research Hub
 
+By: Samuel Chan, James Rumsey, Christian Burke, Vinit Parekh, Justin Suh
+
+Help from: Yunyu Lin, Prof. Jun Yang, Doug Talbert
+
 ## Project Description
 
 Our group is building a webapp that will allow Duke faculty to upload postings for research projects at Duke. Our goal is to connect students to research opportunities by providing them up to date information that they need in order to determine which lab to research in. We will be developing a query system that would allow students to look for projects that have been posted, or look for Duke faculty to directly contact. Each project page will have information about what work the project entails, the number of spots available, a brief description of the necessary skills, and the date posted. Project Managers have the ability to register on the website and post projects for students to public brows. Students can search for a project on the project page and apply through an apply button that redirects to a form to fill out. Alternatively ,Students can search a separate faculty page that displays the name, title, department, phone number, email, and website of each faculty member at Duke. Information on faculty was scraped from Duke’s faculty directory (scholars.duke.edu).
@@ -64,6 +68,9 @@ Below, you will find some information on how to set up the database, scrape data
     - Navigate into FrontEnd
     - Run npm install to download any package.json dependencies. Ensure npm (Node Package Manager) is installed on your machine.
     - Run npm start. In case of error, run "yarn install --> yarn start."
+3. For Deployment (GCP)
+    - Must change config to external ip address of vm instance
+    - run yarn start on PORT=80, specify backend url
 
 ## 6. Injecting Data (GET, POST requests)
 
