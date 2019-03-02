@@ -79,7 +79,7 @@ const HomepageHeading = ({ mobile }) => (
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <Link to='/Proposal'>
         <Button animated  color = 'teal' size='massive'>
-          <Button.Content visible> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Submit Proposal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Button.Content>
+          <Button.Content visible> &nbsp;&nbsp;Submit Proposal&nbsp;&nbsp; </Button.Content>
           <Button.Content hidden>
             <Icon name='arrow right' />
           </Button.Content>

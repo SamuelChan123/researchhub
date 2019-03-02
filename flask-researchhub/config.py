@@ -4,3 +4,4 @@ SQLALCHEMY_DATABASE_URI = 'postgresql://samchan:dbpasswd@0.0.0.0/researchhub'
 SQLALCHEMY_ECHO = True
 DEBUG = True
 SQLALCHEMY_TRACK_MODIFICATIONS = False
+SQLALCHEMY_POOL_SIZE = 20
